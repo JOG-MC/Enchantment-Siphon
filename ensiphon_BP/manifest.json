@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Enchantment Siphon BP",
+        "description": "Behavior Pack for the Enchantment Siphon Add-on",
+        "uuid": "a6021ba9-7d6a-48ce-ae8b-0611ad3837db", // Your existing UUID
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 21, 60 ] // Keep this appropriate
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "14396914-8df0-4eea-9ab2-3a75c3b95393", // Your existing script module UUID
+            "entry": "scripts/main.js",
+            "version": [ 1, 0, 0 ]
+        }
+    ],
+    "dependencies": [
+         {
+             "module_name": "@minecraft/server",
+             "version": "2.0.0-beta"
+         },
+         { 
+             "module_name": "@minecraft/server-ui",
+             "version": "2.0.0-beta"
+         }
+    ]
+}

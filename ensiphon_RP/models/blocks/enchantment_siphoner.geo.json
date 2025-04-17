@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.20",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.ensiphon.enchantment_siphon",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 16, 16],
+							"uv": {
+								"north": {"uv": [6.5, 4.25], "uv_size": [51.5625, 50.3125]},
+								"east": {"uv": [44.5, 5.1875], "uv_size": [11.875, 8.3125]},
+								"south": {"uv": [43.125, 45.9375], "uv_size": [7.625, 7.9375]},
+								"west": {"uv": [8.4375, 37.375], "uv_size": [7.4375, 7.0625]},
+								"up": {"uv": [36.6875, 11.3125], "uv_size": [-11.875, -7.1875]},
+								"down": {"uv": [13.875, 14.0625], "uv_size": [-5.5, -7.9375]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

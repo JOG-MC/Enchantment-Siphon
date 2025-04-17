@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "ensiphon_rp_textures",
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "enchantment_siphon": {
+      "textures": "textures/blocks/enchantment_siphon"
+    }
+  }
+}

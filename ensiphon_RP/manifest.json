@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Enchantment Siphon RP",
+        "description": "Resource Pack for the Enchantment Siphon Add-on",
+        "uuid": "45cc8207-6b18-4cdd-a375-d71d3ca52588",
+        "version": [ 1, 20, 60 ],
+        "min_engine_version": [ 1, 20, 80 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "fadbe06b-8666-47e1-b362-ecdb7f853ed0",
+            "version": [ 1, 20, 60 ]
+        }
+    ]
+}
